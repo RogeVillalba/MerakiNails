@@ -41,7 +41,7 @@ header{
     justify-content: center;
     padding-top: 50px;
     background-image: linear-gradient(to right, rgba(230, 161, 161, 0.533), rgb(232, 178, 202), rgba(230, 161, 161, 0.563));
-    background-image: url(./img/3.png);
+    background-image: url(./img/imgMain2.png);
 }
 .card-img-top{
     display: block;
@@ -77,6 +77,8 @@ header{
 /*FOOTER*/
 footer{
     background-color: rgb(198, 168, 200);
+    position: absolute;
+    bottom: 0;
 }
 .textoFooter{
     text-align: center;
@@ -87,7 +89,7 @@ footer{
 .padreListaFooter{
     display: flex;
     height: auto;
-    
+   
 }
 .listaFooter{
     display: flex;
@@ -95,6 +97,7 @@ footer{
     align-items: center;
     justify-content: space-around;
     list-style: none;
+    padding-left: 0;
 }
 .redSocial{
 
