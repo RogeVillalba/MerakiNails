@@ -7,6 +7,7 @@ padding: 0;
 
 header{
     height: auto;
+    width: auto;
     background-image: url(./img/aass.jpg);
 }
 .titulo{
@@ -47,7 +48,7 @@ header{
     height: 40%;
     width: 40%;
     border-radius: 50%;
-    box-shadow: black 15px 5px 25px ;
+    box-shadow: black 10px 5px 35px ;
 }
 .card-body{
     display: block;
@@ -58,18 +59,18 @@ header{
 } 
 .textPediTuTurno{
     text-align: center;
-    font-size: 50px;
-    height: 85px;
+    font-size: 35px;
+    height: 65px;
     margin: 0;
     background-color: rgb(213, 212, 212);
 }
 .clickDerecho{
-    top: 20px;
-    left: 365px;
+    top: 10px;
+    left: 305px;
 }
 .clickIzquierdo{
-    top: 20px;
-    right: 365px;
+    top: 10px;
+    right: 305px;
 }
 /*MAIN*/
 
